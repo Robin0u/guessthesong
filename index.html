@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Song</title>
+    <link rel="icon" type="image/png" href="icon.png"/>
+    <link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="marquee-container">
+        <div class="marquee">
+            <span>COUCOU ! Pour le moment c'est un test mais c'est déjà pas mal non ?</span>
+        </div>
+        <HR>
+</div>
+
+<div class="page-title">
+  <a href="index.html" class="image-container"> 
+  <img src="guess-the-song.png" alt="logo">
+</div>
+</a>
+
+<div class="marquee-container">
+        <HR>
+    </div>
+
+<div id="container">
+        <p id="question"></p>
+        <div id="options">
+            <button onclick="checkAnswer(0)">
+                All products
+            </button>
+            <button onclick="checkAnswer(1)">
+                Latest hits
+            </button>
+            <button onclick="checkAnswer(2)">
+                Old classics
+            </button>
+        </div>
+        <br>
+        <button id="nextButton" onclick="nextQuestion()">Suivant</button>
+    </div>
+
+    <script src="script.js"></script>
+
+<div class="marquee-container2">
+        <HR>
+    </div>
+
+
+<div class="bottomtext">
+<p> Ce site est à but non lucratif.<br/>
+©2024 robin0u <br/>
+</p>
+</div>
+
+</body>
+</html>
